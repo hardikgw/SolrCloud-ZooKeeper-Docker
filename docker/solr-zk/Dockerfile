@@ -11,5 +11,5 @@ RUN\
 	ln -s solr-6.1.0 solr &&\
 	apt-get install -y software-properties-common &&\
 	apt-get update &&\
- 	apt-get install oracle-java6-installer
+ 	apt-get install oracle-java8-installer
 	
