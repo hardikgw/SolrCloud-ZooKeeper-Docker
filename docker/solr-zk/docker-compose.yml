@@ -12,8 +12,8 @@ services:
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
     command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&
+      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&
       echo "server.1=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg
 
   solr-zk-2:
@@ -29,8 +29,8 @@ services:
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
     command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&
+      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&
       echo "server.1=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg
 
   solr-zk-3:
@@ -46,6 +46,6 @@ services:
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
     command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&
+      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&
       echo "server.1=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg
