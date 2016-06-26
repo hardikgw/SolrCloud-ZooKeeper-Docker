@@ -1,3 +1,4 @@
+version: '2'
 services:
   solr-zk-1:
     container_name: solr-zk-1
@@ -12,9 +13,20 @@ services:
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
     command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&
-      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&
-      echo "server.1=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg
+      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.2=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.3=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "$$ZKID" >> /zk-data/myid &&\
+      chmod 777 /zk/bin/zkServer.sh &&\
+      ./zk/bin/zkServer.sh start-foreground &&\
+      ./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
+    extra_hosts:
+      - "solr-zk-1:172.16.238.11"
+      - "solr-zk-2:172.16.238.12"
+      - "solr-zk-3:172.16.238.13"
+    networks:
+      solr_net:
+        ipv4_address: 172.16.238.11
 
   solr-zk-2:
     container_name: solr-zk-2
@@ -29,9 +41,23 @@ services:
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
     command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&
-      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&
-      echo "server.1=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg
+      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.2=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.3=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "$$ZKID" >> /zk-data/myid &&\
+      ./zk/bin/zkServer.sh start-foreground &&\
+      ./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
+    extra_hosts:
+      - "solr-zk-1:172.16.238.11"
+      - "solr-zk-2:172.16.238.12"
+      - "solr-zk-3:172.16.238.13"
+    extra_hosts:
+      - "solr-zk-1:172.16.238.11"
+      - "solr-zk-2:172.16.238.12"
+      - "solr-zk-3:172.16.238.13"
+    networks:
+      solr_net:
+        ipv4_address: 172.16.238.12
 
   solr-zk-3:
     container_name: solr-zk-3
@@ -46,6 +72,29 @@ services:
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
     command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&
-      echo "server.1=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&
-      echo "server.1=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg
+      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.2=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "server.3=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg &&\
+      echo "$$ZKID" >> /zk-data/myid &&\
+      ./zk/bin/zkServer.sh start-foreground &&\
+      ./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
+    extra_hosts:
+      - "solr-zk-1:172.16.238.11"
+      - "solr-zk-2:172.16.238.12"
+      - "solr-zk-3:172.16.238.13"
+    networks:
+      solr_net:
+        ipv4_address: 172.16.238.13
+networks:
+  solr_net:
+    driver: bridge
+    driver_opts:
+      com.docker.network.enable_ipv6: "true"
+    ipam:
+      driver: default
+      config:
+      - subnet: 172.16.238.0/24
+        gateway: 172.16.238.1
+      - subnet: 2001:3984:3989::/64
+        gateway: 2001:3984:3989::1
+

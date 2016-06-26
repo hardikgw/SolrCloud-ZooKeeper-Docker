@@ -23,4 +23,9 @@ RUN\
 	echo "syncLimit=2" >> /zk/conf/zoo.cfg &&\
 	echo "server.1=zoo1:2888:3888" >> /zk/conf/zoo.cfg &&\
       	echo "server.1=zoo2:2888:3888" >> /zk/conf/zoo.cfg &&\
-      	echo "server.1=zoo3:2888:3888" >> /zk/conf/zoo.cfg
+      	echo "server.1=zoo3:2888:3888" >> /zk/conf/zoo.cfg &&\
+	chmod 755 /zk/bin/*.sh &&\
+	chmod 755 /solr/bin/solr
+ENTRYPOINT\
+	./zk/bin/zkServer.sh start-foreground &&\
+      	./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
