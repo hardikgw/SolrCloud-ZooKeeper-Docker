@@ -28,4 +28,4 @@ RUN\
 	chmod 755 /solr/bin/solr
 ENTRYPOINT\
 	./zk/bin/zkServer.sh start &&\
-      	./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
+      	./solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
