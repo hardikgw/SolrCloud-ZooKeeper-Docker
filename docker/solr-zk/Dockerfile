@@ -21,5 +21,3 @@ RUN\
 	echo "clientPort=2181" >> /zk/conf/zoo.cfg &&\
 	echo "initLimit=5" >> /zk/conf/zoo.cfg &&\
 	echo "syncLimit=2" >> /zk/conf/zoo.cfg
-      
-	
