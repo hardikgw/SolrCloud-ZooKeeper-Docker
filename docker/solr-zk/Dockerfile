@@ -15,6 +15,7 @@ RUN\
 	ln -s zookeeper-$ZK_VER zk &&\
 	mkdir solr-data &&\
 	mkdir zk-data &&\
+	echo "$$ZKID" >> /zk-data/myid &&\
         touch /zk/conf/zoo.cfg &&\
 	echo "tickTime=2000" >> /zk/conf/zoo.cfg &&\
 	echo "dataDir=/zk-data" >> /zk/conf/zoo.cfg &&\
