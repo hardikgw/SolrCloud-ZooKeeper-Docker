@@ -5,7 +5,7 @@ ENV\
 	ZK_VER=3.4.8
 RUN\
 	apt-get update &&\
-	apt-get install -y vim curl wget nodejs default-jdk &&\
+	apt-get install -y vim curl wget nodejs default-jdk lsof &&\
 	apt-get update &&\
 	wget http://apache.claz.org/lucene/solr/$SOLR_VER/solr-$SOLR_VER.tgz &&\
 	tar xzvf solr-$SOLR_VER.tgz &&\
