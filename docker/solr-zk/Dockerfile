@@ -28,5 +28,4 @@ RUN\
 	chmod 755 /zk/bin/*.sh &&\
 	chmod 755 /solr/bin/solr
 ENTRYPOINT\
-	./zk/bin/zkServer.sh start &&\
-      	./solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
+	["/bin/bash", "-c", "/zk/bin/zkServer.sh start;/solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data"]
