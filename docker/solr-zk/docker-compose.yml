@@ -12,14 +12,6 @@ services:
       - ZKID=1
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
-    command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.2=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.3=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "$$ZKID" >> /zk-data/myid &&\
-      chmod 777 /zk/bin/zkServer.sh &&\
-      ./zk/bin/zkServer.sh start-foreground &&\
-      ./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
     extra_hosts:
       - "solr-zk-1:172.16.238.11"
       - "solr-zk-2:172.16.238.12"
@@ -40,13 +32,6 @@ services:
       - ZKID=2
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
-    command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.2=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.3=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "$$ZKID" >> /zk-data/myid &&\
-      ./zk/bin/zkServer.sh start-foreground &&\
-      ./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
     extra_hosts:
       - "solr-zk-1:172.16.238.11"
       - "solr-zk-2:172.16.238.12"
@@ -71,13 +56,6 @@ services:
       - ZKID=3
       - SOLR_DATADIR=/solr-data
       - ZK_DATADIR=/zk-data
-    command: 
-      echo "server.1=solr-zk-1:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.2=solr-zk-2:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "server.3=solr-zk-3:2888:3888" >> /zk/conf/zoo.cfg &&\
-      echo "$$ZKID" >> /zk-data/myid &&\
-      ./zk/bin/zkServer.sh start-foreground &&\
-      ./solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
     extra_hosts:
       - "solr-zk-1:172.16.238.11"
       - "solr-zk-2:172.16.238.12"
