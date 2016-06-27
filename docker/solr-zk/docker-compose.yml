@@ -6,11 +6,6 @@ services:
       dockerfile: Dockerfile-cloud
     container_name: solr-zk-1
     image: hardikdocker/solrcloud-zookeeper-docker
-    ports:
-      - "8983"
-      - "2181"
-      - "2888"
-      - "3888"
     environment:
       - ZKID=1
       - SOLR_DATADIR=/solr-data
@@ -30,11 +25,6 @@ services:
       dockerfile: Dockerfile-cloud
     container_name: solr-zk-2
     image: hardikdocker/solrcloud-zookeeper-docker
-    ports:
-      - "8983"
-      - "2181"
-      - "2888"
-      - "3888"
     environment:
       - ZKID=2
       - SOLR_DATADIR=/solr-data
@@ -58,11 +48,6 @@ services:
       dockerfile: Dockerfile-cloud
     container_name: solr-zk-3
     image: hardikdocker/solrcloud-zookeeper-docker
-    ports:
-      - "8983"
-      - "2181"
-      - "2888"
-      - "3888"
     environment:
       - ZKID=3
       - SOLR_DATADIR=/solr-data
