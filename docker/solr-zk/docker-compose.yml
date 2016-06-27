@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile-cloud
     container_name: solr-zk-1
-    image: hardikdocker/solrcloud-zookeeper-docker
+    command: echo $$ZKID >> /zk-data/myid && ./zk/bin/zkServer.sh start && ./solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
     ports:
       - "8983"
       - "2181"
@@ -20,7 +20,6 @@ services:
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
     tty: true
-    #command: ["echo $$ZKID >> /zk-data/myid", "/zk/bin/zkServer.sh start" , "/solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data"]
     networks:
       solr_net:
         ipv4_address: 172.16.238.11
@@ -30,7 +29,7 @@ services:
       context: .
       dockerfile: Dockerfile-cloud
     container_name: solr-zk-2
-    image: hardikdocker/solrcloud-zookeeper-docker
+    command: echo $$ZKID >> /zk-data/myid && ./zk/bin/zkServer.sh start && ./solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
     ports:
       - "8983"
       - "2181"
@@ -49,7 +48,6 @@ services:
       - "solr-zk-1:172.16.238.11"
       - "solr-zk-2:172.16.238.12"
       - "solr-zk-3:172.16.238.13"
-    command: ["touch /zk-data/myid", "echo $$ZKID >> /zk-data/myid", "/zk/bin/zkServer.sh start" , "/solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data"]
     networks:
       solr_net:
         ipv4_address: 172.16.238.12
@@ -59,7 +57,7 @@ services:
       context: .
       dockerfile: Dockerfile-cloud
     container_name: solr-zk-3
-    image: hardikdocker/solrcloud-zookeeper-docker
+    command: echo $$ZKID >> /zk-data/myid && ./zk/bin/zkServer.sh start && ./solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data
     ports:
       - "8983"
       - "2181"
@@ -74,7 +72,6 @@ services:
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
     tty: true
-    command: ["touch /zk-data/myid", "echo $$ZKID >> /zk-data/myid", "/zk/bin/zkServer.sh start" , "/solr/bin/solr -cloud -z solr-zk-1:2181,solr-zk-2:2181,solr-zk-3:2181 -s /solr-data"]
     networks:
       solr_net:
         ipv4_address: 172.16.238.13

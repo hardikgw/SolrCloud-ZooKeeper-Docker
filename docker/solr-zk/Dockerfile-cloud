@@ -1,2 +1,1 @@
 FROM hardikdocker/solrcloud-zookeeper-docker
-ENTRYPOINT sh -c

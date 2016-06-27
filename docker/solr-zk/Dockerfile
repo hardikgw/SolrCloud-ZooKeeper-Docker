@@ -23,7 +23,5 @@ RUN\
 	echo "syncLimit=2" >> /zk/conf/zoo.cfg &&\
 	echo "server.1=zoo1:2888:3888" >> /zk/conf/zoo.cfg &&\
 	echo "server.1=zoo2:2888:3888" >> /zk/conf/zoo.cfg &&\
-	echo "server.1=zoo3:2888:3888" >> /zk/conf/zoo.cfg &&\
-	chmod 755 /zk/bin/*.sh &&\
-	chmod 755 /solr/bin/solr
+	echo "server.1=zoo3:2888:3888" >> /zk/conf/zoo.cfg
 EXPOSE 8983 2181 2888 3888
