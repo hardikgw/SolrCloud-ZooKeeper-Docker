@@ -26,3 +26,4 @@ RUN\
       	echo "server.1=zoo3:2888:3888" >> /zk/conf/zoo.cfg &&\
 	chmod 755 /zk/bin/*.sh &&\
 	chmod 755 /solr/bin/solr
+EXPOSE 8983 2181 2888 3888
