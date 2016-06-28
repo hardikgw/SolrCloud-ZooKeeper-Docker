@@ -48,7 +48,7 @@ services:
       dockerfile: Dockerfile-cloud-3
     container_name: zoo3
     command: ./start.sh
-    environment: 
+    environment:
       - ZKID=3
     tty: false
     extra_hosts:
@@ -63,6 +63,31 @@ services:
     networks:
       solr_net:
         ipv4_address: 172.16.238.13
+  node-fusion:
+    container_name: node-fusion
+    depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+    build:
+      context: .
+      dockerfile: Dockerfile-fusion
+    ports:
+      - "8764:8764"
+      - "8765:8983"
+      - "8983:8983"
+      - "8984:8984"
+      - "3000:3000"
+    extra_hosts:
+      - "zoo1:172.16.238.11"
+      - "zoo2:172.16.238.12"
+      - "zoo3:172.16.238.13"
+    volumes:
+      - "./shared:/usr/local/shared"
+    command: ./start.sh
+    networks:
+      solr_net:
+        ipv4_address: 172.16.238.14
 networks:
   solr_net:
     driver: bridge
