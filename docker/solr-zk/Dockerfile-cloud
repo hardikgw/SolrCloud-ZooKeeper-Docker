@@ -1,1 +1,3 @@
 FROM hardikdocker/solrcloud-zookeeper-docker
+RUN\
+	touch /zk-data/myid
