@@ -1,38 +1,29 @@
 version: '2'
 services:
-  solr-zk-1:
+  zoo1:
     build:
       context: .
-      dockerfile: Dockerfile-cloud
+      dockerfile: Dockerfile-cloud-1
     container_name: zoo1
-    command: echo $$ZKID >> /zk-data/myid && /zk/bin/zkServer.sh start && /solr/bin/solr -cloud -z zoo1:2181,zoo2:2181,zoo3:2181 -s /solr-data
-    environment:
+    command: ./start.sh
+    environment: 
       - ZKID=1
-      - SOLR_DATADIR=/solr-data
-      - ZK_DATADIR=/zk-data
+    tty: false
     extra_hosts:
       - "zoo1:172.16.238.11"
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
-    tty: false
     networks:
       solr_net:
         ipv4_address: 172.16.238.11
-
-  solr-zk-2:
+  zoo2:
     build:
       context: .
-      dockerfile: Dockerfile-cloud
+      dockerfile: Dockerfile-cloud-2
     container_name: zoo2
-    command: echo $$ZKID >> /zk-data/myid && /zk/bin/zkServer.sh start && /solr/bin/solr -cloud -z zoo1:2181,zoo2:2181,zoo3:2181 -s /solr-data
-    environment:
+    command: ./start.sh
+    environment: 
       - ZKID=2
-      - SOLR_DATADIR=/solr-data
-      - ZK_DATADIR=/zk-data
-    extra_hosts:
-      - "zoo1:172.16.238.11"
-      - "zoo2:172.16.238.12"
-      - "zoo3:172.16.238.13"
     tty: false
     extra_hosts:
       - "solr-zk-1:172.16.238.11"
@@ -41,22 +32,19 @@ services:
     networks:
       solr_net:
         ipv4_address: 172.16.238.12
-
-  solr-zk-3:
+  zoo3:
     build:
       context: .
-      dockerfile: Dockerfile-cloud
+      dockerfile: Dockerfile-cloud-3
     container_name: zoo3
-    command: echo $$ZKID >> /zk-data/myid && /zk/bin/zkServer.sh start && /solr/bin/solr -cloud -z zoo1:2181,zoo2:2181,zoo3:2181 -s /solr-data
-    environment:
+    command: ./start.sh
+    environment: 
       - ZKID=3
-      - SOLR_DATADIR=/solr-data
-      - ZK_DATADIR=/zk-data
+    tty: false
     extra_hosts:
       - "zoo1:172.16.238.11"
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
-    tty: false
     networks:
       solr_net:
         ipv4_address: 172.16.238.13
