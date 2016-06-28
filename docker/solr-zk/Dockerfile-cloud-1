@@ -6,7 +6,7 @@ RUN\
 	echo "#!/usr/bin/env bash" >> start.sh &&\
 	echo "./zk/bin/zkServer.sh start" >> start.sh &&\
 	echo "./solr/bin/solr -cloud -z zoo1:2181,zoo2:2181,zoo3:2181 -s /solr-data" >> start.sh &&\
-	echo "./solr/server/scripts/cloud-scripts/zkcli.sh -cmd upconfig -zkhost localhost:2181 -confname basic -confdir /solr-config/basic"
+	echo "./solr/server/scripts/cloud-scripts/zkcli.sh -cmd upconfig -zkhost localhost:2181 -confname basic -confdir /solr-config/basic" &&\
 	echo "monit -I" >> start.sh &&\
 	chmod 755 start.sh
 CMD	/bin/bash
