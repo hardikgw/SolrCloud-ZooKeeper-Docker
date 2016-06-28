@@ -16,7 +16,7 @@ RUN\
 	mkdir solr-data &&\
 	mkdir solr-config &&\
 	mkdir solr-config/basic &&\
-	cp -r /usr/local/solr/server/solr/configsets/basic_configs/conf /solr-config/basic &&\
+	cp -r /solr/server/solr/configsets/basic_configs/conf /solr-config/basic &&\
 	mkdir zk-data &&\
 	touch /zk/conf/zoo.cfg &&\
 	echo "tickTime=2000" >> /zk/conf/zoo.cfg &&\
