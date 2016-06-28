@@ -26,9 +26,9 @@ services:
       - ZKID=2
     tty: false
     extra_hosts:
-      - "solr-zk-1:172.16.238.11"
-      - "solr-zk-2:172.16.238.12"
-      - "solr-zk-3:172.16.238.13"
+      - "zoo1:172.16.238.11"
+      - "zoo2:172.16.238.12"
+      - "zoo3:172.16.238.13"
     networks:
       solr_net:
         ipv4_address: 172.16.238.12
