@@ -32,7 +32,7 @@ SPARK_WORKER_JAVA_OPTIONS=(-Xmx1g -XX:MaxPermSize=256m -Dapple.awt.UIElement=tru
 
 # the port the bundled ZooKeeper listens on. If you change this, also change the
 # "clientPort" setting in the conf/zookeeper/zoo.cfg
-ZOOKEEPER_PORT=9983
+#ZOOKEEPER_PORT=9983
 
 # The FUSION_ZK is the address of the ZooKeeper cluster where Fusion keeps
 # track of its various services and stores its own configuration.
