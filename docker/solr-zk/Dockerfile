@@ -10,10 +10,12 @@ RUN\
 	wget http://apache.claz.org/lucene/solr/$SOLR_VER/solr-$SOLR_VER.tgz &&\
 	tar xzvf solr-$SOLR_VER.tgz &&\
 	wget http://apache.spinellicreations.com/zookeeper/zookeeper-$ZK_VER/zookeeper-$ZK_VER.tar.gz &&\
-	tar xzvf zookeeper-$ZK_VER.tar.gz &&\
+	tar xzvf zookeeper-$ZK_VER.tar.gz
+RUN\
 	ln -s solr-$SOLR_VER solr &&\
 	ln -s zookeeper-$ZK_VER zk &&\
 	mkdir solr-data &&\
+	cp /solr/server/solr/solr.xml /solr-data/. &&\
 	mkdir solr-config &&\
 	mkdir solr-config/basic &&\
 	cp -r /solr/server/solr/configsets/basic_configs/conf /solr-config/basic &&\
