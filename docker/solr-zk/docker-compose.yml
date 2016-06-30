@@ -74,6 +74,7 @@ services:
       dockerfile: Dockerfile-fusion
     ports:
       - "8764:8764"
+      - "8983:8983"
       - "8765:8765"
       - "8984:8984"
       - "8766:8766"
