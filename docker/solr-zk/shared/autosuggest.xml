@@ -1,0 +1,1708 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<add>
+  <doc>
+    <field name="userQuery"><![CDATA[hbogo]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[g watch r]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[lg watch r]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[jitterbug]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone 6plus]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung tab s2]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">999999</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s6]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone6s]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s6 active]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 6s]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[2520ask2520a2520question]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[2 year contractdocument.location1]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[2 year contractdocument.title1]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[at&t navigator]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">10000</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[lollipop]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">10000</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[answering system]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">10000</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[at&t world connect value]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">10000</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[software update]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">10000</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[activate reward card]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">10000</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[2 year contractconfirm1]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[2 year contractprompt1]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[fax]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[cruise]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[hot spot]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone6]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 6 plus]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[uverse account]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone 6 plus cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[disconnect]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[voice mail]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[smartlimits]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[technical support]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[file a claim]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[ring tones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[senior nation 200]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[upgrades]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[tablets]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[passport plan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[filip]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[family plans]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone6 plus]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[smart phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[1]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[passport plans]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[data]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[ipod]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[contact us]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i watch]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 5]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[hot spots]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[speedtest]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[uverse availability]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone 7]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[how to]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[smartwatch]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[plentiful]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[reset voicemail]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy s3]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pre paid]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[turn on data]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[go phone refill]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[rewards center]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[contact number]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[watches]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[stores]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[fit bit]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[uverse app]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[sim kit]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[hotspots]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[channels]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[international texting]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[yahoocom]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[logout]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[data plan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s6 edge plus]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[vacation]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[track phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy gear]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[cell phone booster]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[faq]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[ringtone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pin number]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[newpaydate]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy s iii]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[uverse tv]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[motorola moto x]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy tab]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[speakers]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy s 4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mcaffee]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[internet]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[locations]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 5c]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[wi-fi]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone data plan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[transfer of service]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[moving]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[complaints]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy s5 active cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[international]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[att communication manager]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s5]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy s4 zoom]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[software]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s6 edge]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[services]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[wireless rebate]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone 6 cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[unlimited nationwide calling]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[yahoo]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[updates]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[go phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[plans for iphone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[wireless]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[notebooks]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[att wifi]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[att u-verse]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[update]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[bellsouth email]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone5s]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[payment arrangements]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[plenti points]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[m8 for windows]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[coverage]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[att navigator]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pebble steel]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[m8]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iwatch]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[att worldwide calling]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[uverse]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[attnet]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[dsl speed test]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[turn off data]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[upgrade]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[go phone plans]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mobile backup]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[micro cell]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[u verse]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[sim]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[wireless discounts]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[lg escape2]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gift guide]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[plan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[ringtones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[callnotes]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[refill]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s5 active]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[s5 mini]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[contact]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[text]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[statements]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gophone sim]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[jambox]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[free tablet]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[rugby 4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[ipads]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[nokia wireless charger]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone5]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy s 5]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[edge]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[passport plus]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[1234214-confirm-]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[tab 4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[search support]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[at]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[sim cards]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[nokia 635]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pulsarellipseprem1200usbs66612]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[google]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[remote]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pulsarellipseprem800usbs666006]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mobile share plan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[transfer billing]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[login]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung edge]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[text messages]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone5c]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[send a text]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[world connect value]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[claims]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[passport package]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[view my bill]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gophones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[change my number]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mobile hot spot]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[note4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mobile share value]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[channel guide]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[transfer billing responsibility]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 4]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[unlock my phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[find my iphone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[motorola moto g]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung galaxy s 6]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[nokia 1520]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mexico]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[dsl availability]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[channel line up]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy s4 mini]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[fan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy alpha cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[otter box]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[suspend]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[history]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[transfer]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[locate my phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[returns]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[m-cell]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[full keyboard phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[internet speed]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[rebate form]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[hallmark]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[tv]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[note5]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[xperia]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung gear 2 neo]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[texting phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[samsung gear fit]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[computers]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[international plans]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[applications]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[contact att]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[toll-free number]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone plans]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[messaging phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[3g coverage map]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pc cards]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[otterbox cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[media share]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[unlock]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[camera phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy s 5 cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[micro-sim]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy s4 cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[friends and family]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[galaxy mega 2 cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[reward]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gear]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[complete choice]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gear 2 neo]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[fire]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gear fit]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[media net]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[status]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[flip phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[attcom]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[chargers]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pulsarellipseprem650usbs665966]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[dell]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[sony xperia]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[rollover]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[mobile to mobile]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[ask a question]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[iphone 5s cases]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[headsets]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[w518a]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[gps tracking]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[answering machines]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[change rate plan]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[move]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[555-555-0199example.com]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[pulsarellipseprem500usbs665846]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[free phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[tracking]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[land line]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[familymap]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phones]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[go phone]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 6]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[discounts]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[direct tv]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[i phone 5s]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[uverse bill]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[free]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[macafee]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">0</field>
+    <field name="adminBoost">0</field>
+  </doc>
+  <doc>
+    <field name="userQuery"><![CDATA[lg g vista 2]]></field>
+    <field name="collection">0</field>
+    <field name="lookupCount">999999</field>
+    <field name="adminBoost">0</field>
+  </doc>
+</add>
+
