@@ -1,7 +1,7 @@
 FROM ubuntu
 MAINTAINER hardikgw@gmail.com
 ENV\
-	SOLR_VER=5.5.1 \
+	SOLR_VER=6.1.0 \
 	ZK_VER=3.4.8
 RUN\
 	apt-get update &&\
