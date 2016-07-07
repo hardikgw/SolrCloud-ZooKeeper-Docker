@@ -106,11 +106,8 @@ services:
   node-fusion:
     container_name: node-fusion
     depends_on:
-      - zoo1
-      - zoo2
-      - zoo3
-      - zoo3
       - zoo4
+      - zoo5
     build:
       context: .
       dockerfile: Dockerfile-fusion
