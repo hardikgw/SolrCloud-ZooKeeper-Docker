@@ -39,8 +39,8 @@ SPARK_WORKER_JAVA_OPTIONS=(-Xmx1g -XX:MaxPermSize=256m -Dapple.awt.UIElement=tru
 # The FUSION_SOLR_ZK is used to locate the Solr cluster where Fusion
 # creates its internal collections (logs, metrics etc), and to change
 # solr configuration if expliticly asked via our APIs.
-FUSION_ZK=zoo3:2181,zoo4:2181
-FUSION_SOLR_ZK=zoo3:2181,zoo4:2181
+FUSION_ZK=zoo4:2181,zoo5:2181
+FUSION_SOLR_ZK=zoo4:2181,zoo5:2181
 
 # The origins that are allowed to serve resources
 FUSION_CORS_ALLOW_ORIGIN=\.\*
