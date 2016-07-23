@@ -5,12 +5,15 @@ ENV\
 	ZK_VER=3.4.8
 RUN\
 	apt-get update &&\
-	apt-get install -y vim curl wget nodejs default-jdk lsof monit &&\
+	apt-get install -y vim curl wget nodejs default-jdk lsof monit ntp &&\
 	apt-get update &&\
 	wget http://apache.claz.org/lucene/solr/$SOLR_VER/solr-$SOLR_VER.tgz &&\
 	tar xzvf solr-$SOLR_VER.tgz &&\
+	rm solr-$SOLR_VER.tgz &&\
 	wget http://apache.spinellicreations.com/zookeeper/zookeeper-$ZK_VER/zookeeper-$ZK_VER.tar.gz &&\
 	tar xzvf zookeeper-$ZK_VER.tar.gz &&\
+	rm zookeeper-$ZK_VER.tar.gz &&\
+	curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-xenial-td-agent2.sh | sh &&\
 	apt-get clean
 RUN\
 	ln -s solr-$SOLR_VER solr &&\

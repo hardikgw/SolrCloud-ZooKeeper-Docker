@@ -13,6 +13,7 @@ services:
       - "zoo1:172.16.238.11"
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
+      - "elasticsearch:172.16.238.21"
     ports:
       - "8983"
       - "2181"
@@ -34,6 +35,7 @@ services:
       - "zoo1:172.16.238.11"
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
+      - "elasticsearch:172.16.238.21"
     ports:
       - "8983"
       - "2181"
@@ -55,6 +57,7 @@ services:
       - "zoo1:172.16.238.11"
       - "zoo2:172.16.238.12"
       - "zoo3:172.16.238.13"
+      - "elasticsearch:172.16.238.21"
     ports:
       - "8983"
       - "2181"
@@ -75,6 +78,7 @@ services:
     extra_hosts:
       - "zoo4:172.16.238.14"
       - "zoo5:172.16.238.15"
+      - "elasticsearch:172.16.238.21"
     ports:
       - "8983"
       - "2181"
@@ -95,6 +99,7 @@ services:
     extra_hosts:
       - "zoo4:172.16.238.14"
       - "zoo5:172.16.238.15"
+      - "elasticsearch:172.16.238.21"
     ports:
       - "8983"
       - "2181"
@@ -125,12 +130,33 @@ services:
       - "zoo3:172.16.238.13"
       - "zoo4:172.16.238.14"
       - "zoo5:172.16.238.15"
+      - "elasticsearch:172.16.238.21"
     volumes:
       - "./shared:/usr/local/shared"
     command: ./start.sh
     networks:
       solr_net:
         ipv4_address: 172.16.238.16
+  elastic-kibana:
+    container_name: elastic-kibana
+    depends_on:
+      - zoo1
+      - zoo2
+      - zoo3
+      - zoo4
+      - zoo5
+      - node-fusion
+    build:
+      context: .
+      dockerfile: Dockerfile-es-kb
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+      - "5601:5601"
+    command: ./start.sh
+    networks:
+      solr_net:
+        ipv4_address: 172.16.238.21
 networks:
   solr_net:
     driver: bridge
