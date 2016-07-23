@@ -10,7 +10,8 @@ RUN\
 	wget http://apache.claz.org/lucene/solr/$SOLR_VER/solr-$SOLR_VER.tgz &&\
 	tar xzvf solr-$SOLR_VER.tgz &&\
 	wget http://apache.spinellicreations.com/zookeeper/zookeeper-$ZK_VER/zookeeper-$ZK_VER.tar.gz &&\
-	tar xzvf zookeeper-$ZK_VER.tar.gz
+	tar xzvf zookeeper-$ZK_VER.tar.gz &&\
+	apt-get clean
 RUN\
 	ln -s solr-$SOLR_VER solr &&\
 	ln -s zookeeper-$ZK_VER zk &&\
