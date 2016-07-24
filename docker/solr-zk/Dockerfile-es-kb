@@ -12,10 +12,12 @@ RUN\
 	apt-get clean &&\
 	wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/$ES_VER/elasticsearch-$ES_VER.tar.gz &&\
 	tar xzvf elasticsearch-$ES_VER.tar.gz &&\
+	rm elasticsearch-$ES_VER.tar.gz &&\
 	ln -s elasticsearch-$ES_VER es &&\
 	mkdir es-data &&\
 	wget https://download.elastic.co/kibana/kibana/kibana-$KB_VER-linux-x64.tar.gz &&\
 	tar xzvf kibana-$KB_VER-linux-x64.tar.gz &&\
+	rm kibana-$KB_VER-linux-x64.tar.gz &&\
 	ln -s kibana-$KB_VER-linux-x64 kb &&\
 	chmod 755 start.sh
 EXPOSE 5601 9200 9300
