@@ -18,10 +18,12 @@ services:
   zoo1:
     container_name: zoo1
     depends_on:
-      elastic-kibana
-    log_driver: "fluentd"
-    log_opt:
-      address: "tcp://172.16.238.21:24224"
+      - elastic-kibana
+    logging: 
+      driver: "fluentd"
+      options:
+        fluentd-address: "tcp://172.16.238.21:24224"
+        fluentd-tag: "docker.solr.{{.ID}}"
     build:
       context: .
       dockerfile: Dockerfile-cloud-1
@@ -45,10 +47,12 @@ services:
   zoo2:
     container_name: zoo2
     depends_on:
-      elastic-kibana
-    log_driver: "fluentd"
-    log_opt:
-      address: "tcp://172.16.238.21:24224"
+      - elastic-kibana
+    logging: 
+      driver: "fluentd"
+      options:
+        fluentd-address: "tcp://172.16.238.21:24224"
+        fluentd-tag: "docker.solr.{{.ID}}"
     build:
       context: .
       dockerfile: Dockerfile-cloud-2
@@ -72,10 +76,12 @@ services:
   zoo3:
     container_name: zoo3
     depends_on:
-      elastic-kibana
-    log_driver: "fluentd"
-    log_opt:
-      address: "tcp://172.16.238.21:24224"
+      - elastic-kibana
+    logging: 
+      driver: "fluentd"
+      options:
+        fluentd-address: "tcp://172.16.238.21:24224"
+        fluentd-tag: "docker.solr.{{.ID}}"
     build:
       context: .
       dockerfile: Dockerfile-cloud-3
@@ -99,10 +105,12 @@ services:
   zoo4:
     container_name: zoo4
     depends_on:
-      elastic-kibana
-    log_driver: "fluentd"
-    log_opt:
-      address: "tcp://172.16.238.21:24224"
+      - elastic-kibana
+    logging: 
+      driver: "fluentd"
+      options:
+        fluentd-address: "tcp://172.16.238.21:24224"
+        fluentd-tag: "docker.solr.{{.ID}}"
     build:
       context: .
       dockerfile: Dockerfile-cloud-4
@@ -125,10 +133,12 @@ services:
   zoo5:
     container_name: zoo5
     depends_on:
-      elastic-kibana
-    log_driver: "fluentd"
-    log_opt:
-      address: "tcp://172.16.238.21:24224"
+      - elastic-kibana
+    logging: 
+      driver: "fluentd"
+      options:
+        fluentd-address: "tcp://172.16.238.21:24224"
+        fluentd-tag: "docker.solr.{{.ID}}"
     build:
       context: .
       dockerfile: Dockerfile-cloud-5
@@ -155,9 +165,11 @@ services:
       - zoo4
       - zoo5
       - elastic-kibana
-    log_driver: "fluentd"
-    log_opt:
-      address: "tcp://172.16.238.21:24224"
+    logging: 
+      driver: "fluentd"
+      options:
+        fluentd-address: "tcp://172.16.238.21:24224"
+        fluentd-tag: "docker.fusion.{{.ID}}"
     build:
       context: .
       dockerfile: Dockerfile-fusion
