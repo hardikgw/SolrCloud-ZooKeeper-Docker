@@ -13,12 +13,6 @@ RUN\
 	wget http://apache.spinellicreations.com/zookeeper/zookeeper-$ZK_VER/zookeeper-$ZK_VER.tar.gz &&\
 	tar xzvf zookeeper-$ZK_VER.tar.gz &&\
 	rm zookeeper-$ZK_VER.tar.gz &&\
-	curl https://packages.treasuredata.com/GPG-KEY-td-agent | apt-key add - &&\
-	echo "deb http://packages.treasuredata.com/2/ubuntu/xenial/ xenial contrib" > /etc/apt/sources.list.d/treasure-data.list &&\
-	apt-get update &&\
-	apt-get install -y --force-yes td-agent &&\
-	td-agent-gem install fluent-plugin-secure-forward &&\
-	td-agent-gem install fluent-plugin-elasticsearch &&\
 	apt-get clean
 RUN\
 	curl https://packages.treasuredata.com/GPG-KEY-td-agent | apt-key add - &&\

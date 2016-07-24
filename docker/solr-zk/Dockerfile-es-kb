@@ -9,7 +9,6 @@ RUN\
 	apt-get update &&\
 	apt-get install -y vim curl wget nodejs default-jdk lsof ntp &&\
 	apt-get update &&\
-	apt-get clean &&\
 	wget https://download.elastic.co/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/$ES_VER/elasticsearch-$ES_VER.tar.gz &&\
 	tar xzvf elasticsearch-$ES_VER.tar.gz &&\
 	rm elasticsearch-$ES_VER.tar.gz &&\
@@ -19,5 +18,12 @@ RUN\
 	tar xzvf kibana-$KB_VER-linux-x64.tar.gz &&\
 	rm kibana-$KB_VER-linux-x64.tar.gz &&\
 	ln -s kibana-$KB_VER-linux-x64 kb &&\
+	curl https://packages.treasuredata.com/GPG-KEY-td-agent | apt-key add - &&\
+	echo "deb http://packages.treasuredata.com/2/ubuntu/xenial/ xenial contrib" > /etc/apt/sources.list.d/treasure-data.list &&\
+	apt-get update &&\
+	apt-get install -y --force-yes td-agent &&\
+	td-agent-gem install fluent-plugin-secure-forward &&\
+	td-agent-gem install fluent-plugin-elasticsearch &&\
+
 	chmod 755 start.sh
-EXPOSE 5601 9200 9300
+EXPOSE 5601 9200 9300 24284
