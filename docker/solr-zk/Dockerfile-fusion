@@ -1,0 +1,6 @@
+
+FROM channelit/node-fusion:latest
+COPY fconfig.sh /fusion/conf/config.sh
+COPY start-fusion.sh /start.sh
+RUN\
+	chmod 755 start.sh
