@@ -1,10 +1,30 @@
 version: '2'
 services:
+  elastic-kibana:
+    container_name: elastic-kibana
+    build:
+      context: .
+      dockerfile: Dockerfile-es-kb
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+      - "5601:5601"
+      - "24284:24284"
+      - "24224:24224"
+    command: ./start.sh
+    networks:
+      solr_net:
+        ipv4_address: 172.16.238.21
   zoo1:
+    container_name: zoo1
+    depends_on:
+      elastic-kibana
+    log_driver: "fluentd"
+    log_opt:
+      address: "tcp://172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-1
-    container_name: zoo1
     command: ./start.sh
     environment: 
       - ZKID=1
@@ -23,10 +43,15 @@ services:
       solr_net:
         ipv4_address: 172.16.238.11
   zoo2:
+    container_name: zoo2
+    depends_on:
+      elastic-kibana
+    log_driver: "fluentd"
+    log_opt:
+      address: "tcp://172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-2
-    container_name: zoo2
     command: ./start.sh
     environment: 
       - ZKID=2
@@ -45,10 +70,15 @@ services:
       solr_net:
         ipv4_address: 172.16.238.12
   zoo3:
+    container_name: zoo3
+    depends_on:
+      elastic-kibana
+    log_driver: "fluentd"
+    log_opt:
+      address: "tcp://172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-3
-    container_name: zoo3
     command: ./start.sh
     environment:
       - ZKID=3
@@ -67,10 +97,15 @@ services:
       solr_net:
         ipv4_address: 172.16.238.13
   zoo4:
+    container_name: zoo4
+    depends_on:
+      elastic-kibana
+    log_driver: "fluentd"
+    log_opt:
+      address: "tcp://172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-4
-    container_name: zoo4
     command: ./start.sh
     environment:
       - ZKID=4
@@ -88,6 +123,12 @@ services:
       solr_net:
         ipv4_address: 172.16.238.14
   zoo5:
+    container_name: zoo5
+    depends_on:
+      elastic-kibana
+    log_driver: "fluentd"
+    log_opt:
+      address: "tcp://172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-5
@@ -113,6 +154,10 @@ services:
     depends_on:
       - zoo4
       - zoo5
+      - elastic-kibana
+    log_driver: "fluentd"
+    log_opt:
+      address: "tcp://172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-fusion
@@ -137,28 +182,6 @@ services:
     networks:
       solr_net:
         ipv4_address: 172.16.238.16
-  elastic-kibana:
-    container_name: elastic-kibana
-    depends_on:
-      - zoo1
-      - zoo2
-      - zoo3
-      - zoo4
-      - zoo5
-      - node-fusion
-    build:
-      context: .
-      dockerfile: Dockerfile-es-kb
-    ports:
-      - "9200:9200"
-      - "9300:9300"
-      - "5601:5601"
-      - "24284:24284"
-      - "24224:24224"
-    command: ./start.sh
-    networks:
-      solr_net:
-        ipv4_address: 172.16.238.21
 networks:
   solr_net:
     driver: bridge
