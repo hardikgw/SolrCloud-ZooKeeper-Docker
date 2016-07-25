@@ -22,7 +22,12 @@ RUN\
 	apt-get update &&\
 	apt-get install -y --force-yes td-agent &&\
 	td-agent-gem install fluent-plugin-elasticsearch &&\
-	apt-get clean
-COPY start-es-kb.sh /start.sh
+	apt-get clean &&\
+	touch start.sh &&\
+	chmod 755 start.sh &&\
+	echo "$!/bin/sh" >> start.sh &&\
+	echo "service td-agent start" >> start.sh &&\
+	echo "./es/bin/elasticsearch -Des.insecure.allow.root=true -d" >> start.sh &&\
+	echo "nohup ./kb/bin/kibana &" >> start.sh
 COPY td-agent.conf /etc/td-agent/td-agent.conf
 EXPOSE 5601 9200 9300 24224
