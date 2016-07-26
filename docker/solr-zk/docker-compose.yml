@@ -5,13 +5,13 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-es-kb
+    command: ./start.sh
     ports:
       - "9200:9200"
       - "9300:9300"
       - "5601:5601"
       - "24284:24284"
       - "24224:24224"
-    command: ./start.sh
     networks:
       solr_net:
         ipv4_address: 172.16.238.21
@@ -22,8 +22,7 @@ services:
     logging: 
       driver: "fluentd"
       options:
-        fluentd-address: "tcp://172.16.238.21:24224"
-        fluentd-tag: "docker.solr.{{.ID}}"
+        fluentd-address: "172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-1
@@ -51,8 +50,7 @@ services:
     logging: 
       driver: "fluentd"
       options:
-        fluentd-address: "tcp://172.16.238.21:24224"
-        fluentd-tag: "docker.solr.{{.ID}}"
+        fluentd-address: "172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-2
@@ -80,8 +78,7 @@ services:
     logging: 
       driver: "fluentd"
       options:
-        fluentd-address: "tcp://172.16.238.21:24224"
-        fluentd-tag: "docker.solr.{{.ID}}"
+        fluentd-address: "172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-3
@@ -109,8 +106,7 @@ services:
     logging: 
       driver: "fluentd"
       options:
-        fluentd-address: "tcp://172.16.238.21:24224"
-        fluentd-tag: "docker.solr.{{.ID}}"
+        fluentd-address: "172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-4
@@ -137,8 +133,7 @@ services:
     logging: 
       driver: "fluentd"
       options:
-        fluentd-address: "tcp://172.16.238.21:24224"
-        fluentd-tag: "docker.solr.{{.ID}}"
+        fluentd-address: "172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-cloud-5
@@ -168,8 +163,7 @@ services:
     logging: 
       driver: "fluentd"
       options:
-        fluentd-address: "tcp://172.16.238.21:24224"
-        fluentd-tag: "docker.fusion.{{.ID}}"
+        fluentd-address: "172.16.238.21:24224"
     build:
       context: .
       dockerfile: Dockerfile-fusion
