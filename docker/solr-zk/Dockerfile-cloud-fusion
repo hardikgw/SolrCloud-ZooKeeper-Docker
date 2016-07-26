@@ -1,7 +1,8 @@
 FROM hardikdocker/solrcloud-zookeeper-docker
+ARG nodeid=4
 RUN\
 	touch /zk-data/myid &&\
-	echo 5 > /zk-data/myid &&\
+	echo ${nodeid} > /zk-data/myid &&\
 	echo "server.4=zoo4:2888:3888" >> /zk/conf/zoo.cfg &&\
 	echo "server.5=zoo5:2888:3888" >> /zk/conf/zoo.cfg &&\
 	touch start.sh &&\
@@ -11,4 +12,5 @@ RUN\
 	echo "./solr/bin/solr -cloud -z zoo4:2181,zoo5:2181 -s /solr-data" >> start.sh &&\
 	echo "monit -I" >> start.sh &&\
 	chmod 755 start.sh
+COPY conf/log4j.properties /solr/server/resources/.
 CMD	/bin/bash

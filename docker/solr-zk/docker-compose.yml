@@ -23,9 +23,12 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: "172.16.238.21:24224"
+        tag: solr.{{.ID}}
     build:
       context: .
-      dockerfile: Dockerfile-cloud-1
+      dockerfile: Dockerfile-cloud-solr
+      args:
+        - nodeid=1
     command: ./start.sh
     environment: 
       - ZKID=1
@@ -51,9 +54,12 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: "172.16.238.21:24224"
+        tag: solr.{{.ID}}
     build:
       context: .
-      dockerfile: Dockerfile-cloud-2
+      dockerfile: Dockerfile-cloud-solr
+      args:
+        - nodeid=2
     command: ./start.sh
     environment: 
       - ZKID=2
@@ -79,9 +85,12 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: "172.16.238.21:24224"
+        tag: solr.{{.ID}}
     build:
       context: .
-      dockerfile: Dockerfile-cloud-3
+      dockerfile: Dockerfile-cloud-solr
+      args:
+        - nodeid=3
     command: ./start.sh
     environment:
       - ZKID=3
@@ -107,9 +116,12 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: "172.16.238.21:24224"
+        tag: solr.{{.ID}}
     build:
       context: .
-      dockerfile: Dockerfile-cloud-4
+      dockerfile: Dockerfile-cloud-fusion
+      args:
+        - nodeid=4
     command: ./start.sh
     environment:
       - ZKID=4
@@ -134,9 +146,12 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: "172.16.238.21:24224"
+        tag: solr.{{.ID}}
     build:
       context: .
-      dockerfile: Dockerfile-cloud-5
+      dockerfile: Dockerfile-cloud-fusion
+      args:
+        - nodeid=5
     container_name: zoo5
     command: ./start.sh
     environment:
@@ -164,6 +179,7 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: "172.16.238.21:24224"
+        tag: fusion.{{.ID}}
     build:
       context: .
       dockerfile: Dockerfile-fusion
