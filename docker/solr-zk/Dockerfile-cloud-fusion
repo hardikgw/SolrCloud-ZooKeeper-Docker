@@ -10,7 +10,6 @@ RUN\
 	echo "./zk/bin/zkServer.sh start" >> start.sh &&\
 	echo "./solr/bin/solr stop" >> start.sh &&\
 	echo "./solr/bin/solr -cloud -z zoo4:2181,zoo5:2181 -s /solr-data" >> start.sh &&\
-	echo "monit -I" >> start.sh &&\
+	echo "tail -F /solr/server/logs/solr.log" >> start.sh &&\
 	chmod 755 start.sh
-COPY conf/log4j.properties /solr/server/resources/.
 CMD	/bin/bash

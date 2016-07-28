@@ -13,7 +13,6 @@ RUN\
 	echo "./solr/bin/solr -cloud -z zoo1:2181,zoo2:2181,zoo3:2181 -s /solr-data" >> start.sh &&\
 	echo "./solr/server/scripts/cloud-scripts/zkcli.sh -cmd upconfig -z localhost:2181 -confname data_driven -confdir ./solr/server/solr/configsets/data_driven_schema_configs/conf" >> start.sh &&\
 	echo " ./etc/init.d/td-agent restart" >> starth.sh &&\
-	echo "monit -I" >> start.sh &&\
+	echo "tail -F /solr/server/logs/solr.log" >> start.sh &&\
 	chmod 755 start.sh
-COPY conf/log4j.properties /solr/server/resources/.
 CMD	/bin/bash
