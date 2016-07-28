@@ -10,5 +10,12 @@ Note: docker-compose also creates separate network. Each container created in st
 
 1. git clone https://github.com/hardikgw/SolrCloud-ZooKeeper-Docker.git
 2. cd SolrCloud-ZooKeeper-Docker/docker/solr-zk/
-3. docker-compose build
+3. docker-compose create
+4. docker-compose start elastic-kibana
 4. docker-compose up -d
+
+List of URLs:
+
+Kibana: http://localhost:5601/app/kibana
+Fusion: http://localhost:8764/
+
