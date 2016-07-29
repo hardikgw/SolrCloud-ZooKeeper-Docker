@@ -6,10 +6,22 @@
 
      docker run -it -p 9200:9200 -p 9300:9300 -p 24284:24284 -p 24224:24224 -p 5601:5601 --name=es docker_elastic-kibana
 
-     sudo docker run -it --name rest --link mysql:mysql -p 3050:3050 channelit/rest
+     docker run -it -p 9200:9200 -p 9300:9300 -p 24284:24284 -p 24224:24224 -p 5601:5601 --name=es channelit/fluentd-elastic-kibana-docker
 
-     sudo docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql
+     sudo docker run -it --name rest --link mysql:mysql -p 3050:3050  --log-driver=fluentd --log-opt fluentd-address=localhost:24224 channelit/rest
 
-docker run --log-driver=fluentd --log-opt fluentd-address=localhost:24224 -e MYSQL_ROOT_PASSWORD=root ubuntu echo 'hello world'
+     sudo docker run --name mysql -e MYSQL_ROOT_PASSWORD=root --log-driver=fluentd --log-opt fluentd-address=localhost:24224 -d mysql
+
+docker run --name=mysql --log-driver=fluentd --log-opt fluentd-address=localhost:24224 ubuntu echo 'hello world'
 
      docker run --name=mysql --log-driver=fluentd --log-opt fluentd-address=localhost:24224 -e MYSQL_ROOT_PASSWORD=root mysql
+
+
+CREATE DATABASE `atom`;
+ 
+USE `atom`;
+ 
+CREATE TABLE `atom`.`todo_list` ( `id` INT NOT NULL AUTO_INCREMENT , 
+`name` VARCHAR(100) NOT NULL , 
+`date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+PRIMARY KEY (`id`)) ENGINE = InnoDB;
