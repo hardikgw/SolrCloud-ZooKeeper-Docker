@@ -1,4 +1,4 @@
-FROM hardikdocker/solrcloud-zookeeper-docker
+FROM search/solrcloud-zookeeper-docker
 ARG nodeid=1
 RUN\
 	touch /zk-data/myid &&\
