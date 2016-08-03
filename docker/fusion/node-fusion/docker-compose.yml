@@ -1,0 +1,11 @@
+version: '2'
+services:
+  node-fusion:
+    image: channelit/node-fusion:latest
+    ports:
+      - "8764:8764"
+      - "8765:8983"
+      - "8983:8983"
+      - "8984:8984"
+    volumes:
+      - "./shared:/usr/local/shared"
