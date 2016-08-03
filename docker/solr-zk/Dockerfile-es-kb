@@ -1,4 +1,4 @@
-FROM channelit/fluentd-elastic-kibana-docker
+FROM search/fluentd-elastic-kibana-docker
 MAINTAINER hardikgw@gmail.com
 RUN\
 	apt-get install monit &&\
