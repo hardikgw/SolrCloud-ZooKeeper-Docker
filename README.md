@@ -34,7 +34,7 @@ http://localhost:32965/solr/#/
 To inspect open ports and services:
 docker-compose -f docker/solr-zk/docker-compose.yml ps
 
--- build.sh --
+#### build.sh
 1. build fusion + node image: docker build -t search/node-fusion:latest docker/fusion/node-fusion/.
 2. build solr + zookeeper image: docker build -t search/solrcloud-zookeeper-docker:latest docker/solr-zk/.
 3. build elasticsearch + kibana + fluentdb image: docker build -t search/fluentd-elastic-kibana-docker:latest docker/es-kb-fd/.
