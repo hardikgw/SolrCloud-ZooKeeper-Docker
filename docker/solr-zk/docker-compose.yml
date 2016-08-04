@@ -197,6 +197,7 @@ services:
       - "zoo3:172.16.238.13"
       - "zoo4:172.16.238.14"
       - "zoo5:172.16.238.15"
+      - "docker:172.16.238.1"
       - "elasticsearch:172.16.238.21"
     volumes:
       - "./shared:/usr/local/shared"
