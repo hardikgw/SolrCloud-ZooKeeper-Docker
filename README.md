@@ -31,11 +31,7 @@ Note: docker-compose also creates separate network. Each container created in st
 - http://localhost:32964/solr/#/
 - http://localhost:32965/solr/#/
 
-
-To inspect open ports and services:
-docker-compose -f docker/solr-zk/docker-compose.yml ps
-
-#### build.sh
+#### Descripton of steps in build file
 1. build fusion + node image: docker build -t search/node-fusion:latest docker/fusion/node-fusion/.
 2. build solr + zookeeper image: docker build -t search/solrcloud-zookeeper-docker:latest docker/solr-zk/.
 3. build elasticsearch + kibana + fluentdb image: docker build -t search/fluentd-elastic-kibana-docker:latest docker/es-kb-fd/.
@@ -59,6 +55,8 @@ docker-compose -f docker/solr-zk/docker-compose.yml ps
 > solrzk_node-fusion      : Extension of search/node-fusion                
 > solrzk_elastic-kibana   : Extension of search/fluentd-elastic-kibana-docker
 
+#### Inspect open ports and services:
+docker-compose -f docker/solr-zk/docker-compose.yml ps
 
 #### Stop containers:
 docker-compose -f docker/solr-zk/docker-compose.yml stop
