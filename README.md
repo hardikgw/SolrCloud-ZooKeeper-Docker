@@ -14,21 +14,18 @@ Note: docker-compose also creates separate network. Each container created in st
 3. `./build.sh`
 
 
-List of URLs:
+###### List of URLs:
+- Kibana: http://localhost:5601/app/kibana
+- Fusion: http://localhost:8764/
 
-Kibana: http://localhost:5601/app/kibana
-Fusion: http://localhost:8764/
+###### SolrCloud - "att-search" cluster
+- http://localhost:32961/solr/#/
+- http://localhost:32962/solr/#/
+- http://localhost:32963/solr/#/
 
-SolrCloud - "att-search" cluster
-
-http://localhost:32961/solr/#/
-http://localhost:32962/solr/#/
-http://localhost:32963/solr/#/
-
-SolrCloud - "default" cluster for fusion
-
-http://localhost:32964/solr/#/
-http://localhost:32965/solr/#/
+###### SolrCloud - "default" cluster for fusion
+- http://localhost:32964/solr/#/
+- http://localhost:32965/solr/#/
 
 
 To inspect open ports and services:
@@ -45,18 +42,18 @@ docker-compose -f docker/solr-zk/docker-compose.yml ps
 #### List of images
 
 ##### Main Images
-search/solrcloud-zookeeper-docker     : Solr + ZooKeeper
-search/node-fusion                    : NodeJS + Fusion
-search/fluentd-elastic-kibana-docker  : ElasticSearch + Kibana + FluentD Collector
+> search/solrcloud-zookeeper-docker     : Solr + ZooKeeper
+> search/node-fusion                    : NodeJS + Fusion
+> search/fluentd-elastic-kibana-docker  : ElasticSearch + Kibana + FluentD Collector
 
 ##### Extensions of main images with configurations
-solrzk_zoo1             : Extension of search/solrcloud-zookeeper-docker                
-solrzk_zoo2             : Extension of search/solrcloud-zookeeper-docker                
-solrzk_zoo3             : Extension of search/solrcloud-zookeeper-docker                
-solrzk_zoo4             : Extension of search/solrcloud-zookeeper-docker                
-solrzk_zoo5             : Extension of search/solrcloud-zookeeper-docker                
-solrzk_node-fusion      : Extension of search/node-fusion                
-solrzk_elastic-kibana   : Extension of search/fluentd-elastic-kibana-docker
+> solrzk_zoo1             : Extension of search/solrcloud-zookeeper-docker                
+> solrzk_zoo2             : Extension of search/solrcloud-zookeeper-docker                
+> solrzk_zoo3             : Extension of search/solrcloud-zookeeper-docker                
+> solrzk_zoo4             : Extension of search/solrcloud-zookeeper-docker                
+> solrzk_zoo5             : Extension of search/solrcloud-zookeeper-docker                
+> solrzk_node-fusion      : Extension of search/node-fusion                
+> solrzk_elastic-kibana   : Extension of search/fluentd-elastic-kibana-docker
 
 
 #### Stop containers:
