@@ -9,9 +9,9 @@ Note: docker-compose also creates separate network. Each container created in st
 
 ## Steps
 
-1. git clone 
-2. cd SolrCloud-ZooKeeper-Docker
-3. ./build.sh
+1. `git clone`
+2. `cd SolrCloud-ZooKeeper-Docker`
+3. `./build.sh`
 
 
 List of URLs:
@@ -71,13 +71,13 @@ Note: Elastic-Kibana is started before othe rcontainers since it is log collecto
 #### Cleanup
 
 ##### Stop containers
-docker-compose -f docker/solr-zk/docker-compose.yml stop
+`docker-compose -f docker/solr-zk/docker-compose.yml stop`
 
 ##### Remove containers
-docker-compose -f docker/solr-zk/docker-compose.yml rm
+`docker-compose -f docker/solr-zk/docker-compose.yml rm`
 
 ##### Remove extension images
-docker rm $(doccker images -q solrzk_)
+`docker rm $(docker images -q solrzk_)`
 
 ##### Reove all images (Warning: This command will delete all images in your pc)
-docker rm $(doccker images -q solrzk_)
+`docker rm $(doccker images -q)`
