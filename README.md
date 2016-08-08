@@ -42,7 +42,42 @@ docker-compose -f docker/solr-zk/docker-compose.yml ps
 5. start elasticsearch + kibana service: docker-compose -f docker/solr-zk/docker-compose.yml start elastic-kibana
 6. start all other services: docker-compose -f docker/solr-zk/docker-compose.yml up -d
 
-Note: 
+#### List of images
 
-1. all steps in build.sh can be done individually (recommended) since steps 1-3 can take long time to download binaries
-2. although steps 4-5 can be replaced with "up -d", they are separated because elastic-kibana service is used as logging service for all others
+##### Main Images
+search/solrcloud-zookeeper-docker     : Solr + ZooKeeper
+search/node-fusion                    : NodeJS + Fusion
+search/fluentd-elastic-kibana-docker  : ElasticSearch + Kibana + FluentD Collector
+
+##### Extensions of main images with configurations
+solrzk_zoo1             : Extension of search/solrcloud-zookeeper-docker                
+solrzk_zoo2             : Extension of search/solrcloud-zookeeper-docker                
+solrzk_zoo3             : Extension of search/solrcloud-zookeeper-docker                
+solrzk_zoo4             : Extension of search/solrcloud-zookeeper-docker                
+solrzk_zoo5             : Extension of search/solrcloud-zookeeper-docker                
+solrzk_node-fusion      : Extension of search/node-fusion                
+solrzk_elastic-kibana   : Extension of search/fluentd-elastic-kibana-docker
+
+
+#### Stop containers:
+docker-compose -f docker/solr-zk/docker-compose.yml stop
+
+#### Start containers
+docker-compose -f docker/solr-zk/docker-compose.yml start elastic-kibana
+docker-compose -f docker/solr-zk/docker-compose.yml up -d
+
+Note: Elastic-Kibana is started before othe rcontainers since it is log collector
+
+#### Cleanup
+
+##### Stop containers
+docker-compose -f docker/solr-zk/docker-compose.yml stop
+
+##### Remove containers
+docker-compose -f docker/solr-zk/docker-compose.yml rm
+
+##### Remove extension images
+docker rm $(doccker images -q solrzk_)
+
+##### Reove all images (Warning: This command will delete all images in your pc)
+docker rm $(doccker images -q solrzk_)
