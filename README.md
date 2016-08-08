@@ -14,16 +14,20 @@ Note: docker-compose also creates separate network. Each container created in st
 3. `./build.sh`
 
 
-###### List of URLs:
-- Kibana: http://localhost:5601/app/kibana
-- Fusion: http://localhost:8764/
+## List of URLs:
 
-###### SolrCloud - "att-search" cluster
+###### Kibana
+- http://localhost:5601/app/kibana
+
+###### Fusion
+- http://localhost:8764/
+
+###### SolrCloud search cluster instances
 - http://localhost:32961/solr/#/
 - http://localhost:32962/solr/#/
 - http://localhost:32963/solr/#/
 
-###### SolrCloud - "default" cluster for fusion
+###### SolrCloud - "default" cluster instances
 - http://localhost:32964/solr/#/
 - http://localhost:32965/solr/#/
 
