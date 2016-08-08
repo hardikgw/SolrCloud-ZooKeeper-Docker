@@ -65,7 +65,7 @@ docker-compose -f docker/solr-zk/docker-compose.yml stop
 docker-compose -f docker/solr-zk/docker-compose.yml start elastic-kibana
 docker-compose -f docker/solr-zk/docker-compose.yml up -d
 
-Note: Elastic-Kibana is started before othe rcontainers since it is log collector
+Note: Elastic-Kibana is started before other rcontainers since it is log collector
 
 #### Cleanup
 
