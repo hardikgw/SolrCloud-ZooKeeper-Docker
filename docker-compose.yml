@@ -11,6 +11,7 @@ services:
       - docker-entrypoint.sh
       - solr
       - start
+      - -f
       - -c
       - -z
       - zoo1:2181,zoo2:2181,zoo3:2181
@@ -30,6 +31,7 @@ services:
       - docker-entrypoint.sh
       - solr
       - start
+      - -f
       - -c
       - -z
       - zoo1:2181,zoo2:2181,zoo3:2181
@@ -49,6 +51,7 @@ services:
       - docker-entrypoint.sh
       - solr
       - start
+      - -f
       - -c
       - -z
       - zoo1:2181,zoo2:2181,zoo3:2181
