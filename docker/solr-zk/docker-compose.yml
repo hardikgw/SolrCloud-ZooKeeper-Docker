@@ -43,6 +43,8 @@ services:
       - "2181"
       - "2888"
       - "3888"
+    volumes:
+      - "./conf:/conf"
     networks:
       solr_net:
         ipv4_address: 172.16.238.11
@@ -201,6 +203,7 @@ services:
       - "elasticsearch:172.16.238.21"
     volumes:
       - "./shared:/usr/local/shared"
+      - "./log:/fusion/var/log"
     command: ./start.sh
     networks:
       solr_net:
